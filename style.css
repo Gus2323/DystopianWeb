@@ -1,0 +1,62 @@
+body{
+    font-family: 'Anton', sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background: black;
+    color: white;
+}
+
+.summary {
+    background-color: white;
+    border: 5px solid red;
+    text-align: center;
+}
+
+.artifacts {
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1 {
+    text-align: center;
+}
+
+.art-1 {
+    order: 1;
+
+}
+
+.art-2 {
+    order: 2;
+
+}
+
+.art-3 {
+    order: 3;
+}
+
+.song {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.playcontrols{
+    margin-left: auto;
+    margin-right: auto;
+}
+.cover {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
