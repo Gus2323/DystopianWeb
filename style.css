@@ -1,66 +1,85 @@
- @font-face { font-family: Capture; src: url('Capture.ttf'); }
+ @font-face {
+     font-family: Capture;
+     src: url('Capture.ttf');
+ }
 
-body{
-    font-family: 'Capture';
-    letter-spacing: 3px;
-    font-size: 2.5vw;
-    background: #22180F;
-}
-.container {
-    display: flex;
-    flex-direction: column;
-}
+ body {
+     font-family: 'Capture';
+     letter-spacing: 3px;
+     font-size: 2.5vw;
+     background: #22180F;
+ }
 
-.header {
-    background: black;
-    color: white;
-}
+ .container {
+     display: flex;
+     flex-direction: column;
+ }
 
-.summary {
-    background-color: white;
-    border: 5px solid red;
-    text-align: center;
-}
+ .header {
+     background: black;
+     color: white;
+ }
 
-.artifacts {
-    color: white;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.pic{
-    display: flex;
-    width: auto;
-    height: 30vh;
-    margin: 1.5%;
-    border: 12px groove firebrick;
-}
+ .summary {
+     display: flex;
+     justify-content: center;
+     margin-left: 25%;
+     margin-right: 25%;
+ }
 
-h1 {
-    text-align: center;
-    color: white;
-}
+ .artifacts {
+     color: white;
+     display: flex;
+     margin-left: auto;
+     margin-right: auto;
+     justify-content: space-around;
+     flex-wrap: wrap;
+ }
 
-.song {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-    background: #A37963;
-}
+ .pic {
+     display: flex;
+     width: auto;
+     height: 30vh;
+     margin: 1.5%;
+     border: 15px groove firebrick;
+ }
 
-.playcontrols{
-    margin-left: auto;
-    margin-right: auto;
-    width: 30vw;
-}
-.cover {
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    height: 30vh;
-    border: 10px groove white;
-}
+ h1 {
+     text-align: center;
+     color: white;
+ }
+
+ .song {
+     display: flex;
+     flex-direction: column;
+     margin-left: auto;
+     margin-right: auto;
+     width: 100%;
+     background: #A37963;
+ }
+
+ .playcontrols {
+     margin-left: auto;
+     margin-right: auto;
+     width: 30vw;
+     margin-bottom: 3%;
+ }
+
+ .cover {
+     margin-left: auto;
+     margin-right: auto;
+     width: auto;
+     height: 30vh;
+     border: 10px groove white;
+     margin-bottom: 1%;
+ }
+
+ .med {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 50vw;
+     height: auto;
+     border: 10px solid white;
+     border-radius: 25px;
+ }
