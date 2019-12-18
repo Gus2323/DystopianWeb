@@ -169,6 +169,10 @@ h5{
     flex-direction: column;
     flex-wrap: wrap;
     text-align: center;
+    max-width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .ic{
     max-width: 150px;
