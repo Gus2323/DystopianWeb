@@ -12,7 +12,7 @@
  }
 
  .header {
-     background: url(https://i.pinimg.com/originals/01/26/43/012643da41a7d4dbfcc6c67ac2ddd2b1.jpg);
+     background:url(https://i.pinimg.com/originals/01/26/43/012643da41a7d4dbfcc6c67ac2ddd2b1.jpg);
      background-repeat: no-repeat;
      background-size: auto;
      padding-top: 1%;
@@ -36,6 +36,7 @@
      margin-right: 15%;
      margin-top: 5%;
      margin-bottom: 5%;
+     max-height: 30vh;
 
  }
 
@@ -89,8 +90,8 @@
  .cover {
      margin-left: auto;
      margin-right: auto;
-     width: auto;
-     height: 25vh;
+     max-width: 300px;
+     max-height: 300px;
      border: 5px solid white;
      margin-bottom: 10px;
  }
@@ -112,10 +113,6 @@
      margin-right: auto;
  }
 
- .link {
-     flex-direction: row;
- }
-
  .summary:hover {
      opacity: 1;
  }
@@ -134,7 +131,8 @@
  }
 
  .colombia {
-     width: 50%;
+max-height: 10vh;
+     min-width: 10vw;
      opacity: .5;
  }
 
@@ -148,4 +146,5 @@
  .top {
      border: 10px solid white;
      background: linear-gradient(120deg, gold 66%, crimson 66%);
+     max-height: 60vh;
  }
