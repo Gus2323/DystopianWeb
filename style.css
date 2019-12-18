@@ -21,10 +21,9 @@
  }
 
  .summary {
-     display: flex;
-     justify-content: center;
-     margin-left: 25%;
-     margin-right: 25%;
+     background: white;
+     opacity: .8;
+     border: 10px solid firebrick;
  }
 
  .artifacts {
@@ -41,7 +40,8 @@
      width: auto;
      height: 30vh;
      margin: 1.5%;
-     border: 15px groove firebrick;
+     border: 15px groove turquoise;
+     box-shadow: 10px 10px 50px darkorange;
  }
 
  h1 {
@@ -51,7 +51,8 @@
 
  .song {
      display: flex;
-     flex-direction: column;
+     flex-wrap: wrap;
+     justify-content: center;
      margin-left: auto;
      margin-right: auto;
      width: 100%;
@@ -83,3 +84,49 @@
      border: 10px solid white;
      border-radius: 25px;
  }
+
+ .albums {
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-start;
+     margin: 1%;
+     background: black;
+     padding: 10px;
+     border: 5px solid white;
+ }
+
+ .play {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ .link {
+     flex-direction: row;
+ }
+
+ .summary:hover {
+     opacity: 1;
+ }
+
+ .link-child {
+     display: flex;
+     justify-content: center;
+ }
+
+ .sum {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     text-decoration: none;
+     color: black;
+ }
+
+ .colombia {
+     width: 70%;
+     opacity: .5;
+ }
+.bg{
+  background-image: linear-gradient(orange, yellow);
+
+}
